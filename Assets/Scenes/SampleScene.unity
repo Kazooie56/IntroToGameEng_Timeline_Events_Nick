@@ -256,7 +256,7 @@ GameObject:
   - component: {fileID: 430093439}
   - component: {fileID: 430093438}
   m_Layer: 0
-  m_Name: Audio Source
+  m_Name: Audio Source Music
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -489,7 +489,7 @@ GameObject:
   - component: {fileID: 936466594}
   - component: {fileID: 936466595}
   m_Layer: 0
-  m_Name: Audio Source
+  m_Name: Source Of Ted Related Noises
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -739,9 +739,37 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3101484088717606595, guid: 478442d58738e5349b1453a4bd05cc0e, type: 3}
+      propertyPath: m_Name
+      value: Ted's Left Ear
+      objectReference: {fileID: 0}
+    - target: {fileID: 3966060320485948746, guid: 478442d58738e5349b1453a4bd05cc0e, type: 3}
+      propertyPath: m_Name
+      value: Ted's Right Pupil
+      objectReference: {fileID: 0}
+    - target: {fileID: 6581723971395710581, guid: 478442d58738e5349b1453a4bd05cc0e, type: 3}
+      propertyPath: m_Name
+      value: Ted's Right Ear
+      objectReference: {fileID: 0}
+    - target: {fileID: 6913281250537150616, guid: 478442d58738e5349b1453a4bd05cc0e, type: 3}
+      propertyPath: m_Name
+      value: Ted's Left Pupil
+      objectReference: {fileID: 0}
+    - target: {fileID: 8494621930475810458, guid: 478442d58738e5349b1453a4bd05cc0e, type: 3}
+      propertyPath: m_Name
+      value: Ted's Nose
+      objectReference: {fileID: 0}
     - target: {fileID: 8494621930475810458, guid: 478442d58738e5349b1453a4bd05cc0e, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8861302889406226200, guid: 478442d58738e5349b1453a4bd05cc0e, type: 3}
+      propertyPath: m_Name
+      value: Ted's Left Eye
+      objectReference: {fileID: 0}
+    - target: {fileID: 8945747948111332693, guid: 478442d58738e5349b1453a4bd05cc0e, type: 3}
+      propertyPath: m_Name
+      value: Ted's Right Eye
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -819,7 +847,7 @@ GameObject:
   - component: {fileID: 1492894139}
   - component: {fileID: 1492894138}
   m_Layer: 0
-  m_Name: Plane
+  m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
